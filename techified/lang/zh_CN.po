@@ -1,0 +1,460 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2009-10-28 00:59+0800\n"
+"PO-Revision-Date: \n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-Language: Chinese\n"
+"X-Poedit-Country: CHINA\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Poedit-KeywordsList: __;_c;_e\n"
+"X-Poedit-Basepath: D:\\My Documents\\桌面\\techified\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: 404.php:4
+msgid "Sorry You Reached Our 404 Error Page"
+msgstr "对不起，您查找的页面不存在。"
+
+#: archive.php:12
+#: archive.php:14
+#: archive.php:16
+#: header.php:12
+#: header.php:14
+#: header.php:16
+#, php-format
+msgid "Archive for %s"
+msgstr "存档于%s"
+
+#: archive.php:12
+#: header.php:12
+msgid "F jS, Y"
+msgstr "Y年m月d日"
+
+#: archive.php:14
+#: header.php:14
+msgid "F, Y"
+msgstr "Y年m月"
+
+#: archive.php:16
+#: header.php:16
+msgid "Y"
+msgstr "Y年"
+
+#: archive.php:36
+#: category.php:29
+#: search.php:29
+#: tag.php:33
+msgid "READ THE FULL ARTICLE &gt;&gt;"
+msgstr "阅读全文 &gt;&gt;"
+
+#: archive.php:49
+#: category.php:42
+#: index.php:37
+#: paginate.php:19
+#: search.php:42
+#: tag.php:46
+msgid "Newer Entries &raquo;"
+msgstr "较新的文章"
+
+#: archive.php:50
+#: category.php:43
+#: index.php:38
+#: paginate.php:20
+#: search.php:43
+#: tag.php:47
+msgid "&laquo; Older Entries"
+msgstr "较旧的文章"
+
+#: archive.php:56
+#: tag.php:53
+msgid "Sorry The Archive You Are Looking For Had Been Deleted."
+msgstr "对不起，您查找的档案可能已被删除。"
+
+#: category.php:49
+msgid "Sorry. There are no post available for selected category."
+msgstr "对不起，您选择的分类中没有帖子。"
+
+#: comments.php:9
+msgid "This post is password protected. Enter the password to view comments."
+msgstr "该帖子有密码保护。请输入密码以查看评论。"
+
+#: comments.php:20
+#: comments.php:37
+#: index.php:17
+msgid "No Responses"
+msgstr "没有评论"
+
+#: comments.php:20
+#: comments.php:37
+#: index.php:17
+msgid "One Response"
+msgstr "1个评论"
+
+#: comments.php:20
+#: comments.php:37
+#: index.php:17
+msgid "% Responses"
+msgstr "%个评论"
+
+#: comments.php:22
+msgid "No trackbacks yet."
+msgstr "没有引用"
+
+#: comments.php:23
+msgid "Trackbacks are disabled."
+msgstr "已禁止引用"
+
+#: comments.php:40
+msgid "Comments are closed."
+msgstr "评论已关闭。"
+
+#: comments.php:50
+msgid "&laquo; Older Comments"
+msgstr "较旧的评论"
+
+#: comments.php:51
+msgid "Newer Comments &raquo;"
+msgstr "较新的评论"
+
+#: comments.php:57
+msgid "Leave a Reply:"
+msgstr "留下评论："
+
+#: comments.php:62
+#, php-format
+msgid "You must be <a href=\"%s\">logged in</a> to post a comment."
+msgstr "您必须<a href=\"%s\">登录</a>后才可以发表评论。"
+
+#: comments.php:69
+#, php-format
+msgid "Logged in as <a href=\"%s\">%s</a>. <a href=\"%s\" title=\"Log out of this account\">Log out &raquo;</a>"
+msgstr "登录于<a href=\"%s\">%s</a>。 <a href=\"%s\" title=\"登出该帐户\">登出 &raquo;</a>"
+
+#: comments.php:72
+msgid "Name (required):"
+msgstr "昵称(必须)："
+
+#: comments.php:76
+msgid "Mail (will not be published) (required):"
+msgstr "邮箱地址 (不会被公开) (必须)："
+
+#: comments.php:80
+msgid "Website:"
+msgstr "站点"
+
+#: comments.php:86
+msgid "Comment (required):"
+msgstr "评论 (必须)"
+
+#: comments.php:91
+msgid "You can use these tags:"
+msgstr "您可以使用这些标记："
+
+#: footer.php:7
+msgid "Recent Entry"
+msgstr "最新文章"
+
+#: footer.php:11
+msgid "Recent Comments"
+msgstr "最新评论"
+
+#: footer.php:15
+msgid "Most Popular Posts"
+msgstr "最受欢迎的帖子"
+
+#: footer.php:22
+msgid "Please install popularity contest plugin."
+msgstr "请安装 Popularity Contest 插件。"
+
+#: footer.php:28
+#: functions.php:30
+#: functions.php:41
+msgid "About Author"
+msgstr "关于作者"
+
+#: footer.php:39
+#, php-format
+msgid "Copyright %s %s %s. Power by <a href=\"http://wordpress.org\" target=\"_blank\">WordPress</a>. "
+msgstr "Copyright %s %s %s. Power by <a href=\"http://wordpress.org\" target=\"_blank\">WordPress</a>. Techified theme ptimization and Chinese by <a href=\"http://cheon.info/\">CheonNii</a>."
+
+#: functions.php:4
+msgid "Please do not load this page directly. Thanks!"
+msgstr ""
+
+#: functions.php:79
+msgid "Techified Theme settings saved."
+msgstr "Techified主题设置已保存。"
+
+#: functions.php:82
+msgid "Techified Theme Settings"
+msgstr "Techified主题设置"
+
+#: functions.php:106
+#: functions.php:276
+msgid "Save Theme Settings"
+msgstr "保存主题设置"
+
+#: functions.php:109
+msgid "Common Settings"
+msgstr "通用设置"
+
+#: functions.php:112
+msgid "Disables loading external page<br />(for example:Addthis,Google Friend Connect)"
+msgstr "禁止加载外部页面<br />(例如:Addthis,Google朋友群)"
+
+#: functions.php:113
+msgid "Can improve the page loading speed"
+msgstr "可以提高网页加载速度"
+
+#: functions.php:116
+msgid "Disables featured post"
+msgstr "禁用精选帖子"
+
+#: functions.php:120
+msgid "Feedburner uri"
+msgstr ""
+
+#: functions.php:128
+msgid "Google Friend Connect Site ID"
+msgstr "Google朋友群 Site ID"
+
+#: functions.php:136
+msgid "MyBlogLog ID"
+msgstr ""
+
+#: functions.php:144
+msgid "Top ads or notice"
+msgstr "顶部广告或公告"
+
+#: functions.php:151
+msgid "Right 300x250 ads code"
+msgstr "右侧 300x250 广告代码"
+
+#: functions.php:158
+msgid "Our Sponsors code"
+msgstr "我们的赞助商代码"
+
+#: functions.php:166
+msgid "Customize stats code"
+msgstr "自定义统计代码"
+
+#: functions.php:173
+msgid "Customize stats icon code"
+msgstr "自定义统计图标代码<br />(也可以输入ICP备案号以及信息产权部的链接)"
+
+#: functions.php:180
+msgid "About Us"
+msgstr "关于我们"
+
+#: functions.php:187
+msgid "Featured Listing"
+msgstr "精选列表"
+
+#: functions.php:190
+msgid "Featured #"
+msgstr "精选 #"
+
+#: functions.php:194
+msgid "Post"
+msgstr "帖子"
+
+#: functions.php:205
+msgid "[Select Post]"
+msgstr "[选择帖子]"
+
+#: functions.php:227
+msgid "Description (Optional)"
+msgstr "描述 (可选)"
+
+#: functions.php:240
+msgid "Image URL (602x245)"
+msgstr "图像地址 (602x245)"
+
+#: functions.php:248
+#: functions.php:263
+msgid " Upload File: "
+msgstr "上传文件："
+
+#: functions.php:255
+msgid "Thumbnail URL (100x75)"
+msgstr "缩略图地址 (100x75)"
+
+#: header.php:66
+#: header.php:99
+#: page.php:8
+#: single.php:8
+msgid "Home"
+msgstr "首页"
+
+#: header.php:72
+msgid "Posts"
+msgstr "订阅帖子"
+
+#: header.php:73
+msgid "Comments"
+msgstr "订阅评论"
+
+#: header.php:74
+msgid "Email"
+msgstr "邮箱订阅"
+
+#: header.php:92
+msgid "looking for something?"
+msgstr "寻找什么?"
+
+#: index.php:14
+#: single.php:16
+msgid "Posted on"
+msgstr "发布于:"
+
+#: index.php:14
+#: single.php:16
+msgid "F j, Y"
+msgstr "Y年m月d日"
+
+#: index.php:15
+#: single.php:17
+msgid "Edit this entry"
+msgstr "编辑文章"
+
+#: index.php:21
+#: single.php:23
+msgid "BOOKMARK"
+msgstr "收藏共享"
+
+#: index.php:27
+msgid "READ THE FULL ARTICLE >>"
+msgstr "阅读全文 >>"
+
+#: page.php:17
+msgid "Share this Page:"
+msgstr "分享这个页面:"
+
+#: page.php:34
+#: paginate.php:12
+#: single.php:53
+msgid "Pages:"
+msgstr "页数:"
+
+#: search.php:10
+#, php-format
+msgid "Search Result For &quot; %s &quot"
+msgstr ""
+
+#: search.php:49
+msgid "Sorry The Post(s) You Are Looking For is not Found."
+msgstr ""
+
+#: sidebar.php:6
+msgid "Event &amp; News Updates"
+msgstr "活动 &amp; 新闻更新"
+
+#: sidebar.php:8
+msgid "Sign up to receive breaking news as well as receive other site updates!"
+msgstr ""
+
+#: sidebar.php:10
+msgid "Enter your email!"
+msgstr "请输入您的邮箱地址！"
+
+#: sidebar.php:26
+msgid "Our Sponsors"
+msgstr "我们的赞助商"
+
+#: sidebar.php:34
+msgid "Google Friend Connect"
+msgstr "Google朋友群"
+
+#: sidebar.php:67
+msgid "Recent Readers"
+msgstr ""
+
+#: sidebar.php:79
+msgid "Categories"
+msgstr "分类目录"
+
+#: sidebar.php:89
+msgid "Archives"
+msgstr "存档"
+
+#: sidebar.php:103
+msgid "Blogroll"
+msgstr ""
+
+#: sidebar.php:113
+msgid "Meta"
+msgstr ""
+
+#: single.php:19
+msgid "No Comment"
+msgstr "没有评论"
+
+#: single.php:19
+msgid "1 Comment"
+msgstr "1个评论"
+
+#: single.php:19
+msgid "% Comments"
+msgstr "%个评论"
+
+#: single.php:32
+msgid "Share this Post:"
+msgstr "分享这个帖子:"
+
+#: single.php:46
+msgid "Tagged with:"
+msgstr ""
+
+#: slider.php:3
+msgid "Featured Posts"
+msgstr "精选帖子"
+
+#: slider.php:34
+#, php-format
+msgid "This is featured post %d title"
+msgstr ""
+
+#: slider.php:35
+msgid "To set this post. Please proceed to Techified theme options."
+msgstr ""
+
+#: tag.php:11
+#: tag.php:13
+#, php-format
+msgid "%s's tag archives"
+msgstr ""
+
+#~ msgid ""
+#~ "Techified theme ptimization and Chinese by <a href=\"http://cheon.info/"
+#~ "\">CheonNii</a>."
+#~ msgstr ""
+#~ "Techified theme ptimization and Chinese by <a href=\"http://cheon.info/"
+#~ "\">CheonNii</a>."
+#~ msgid "Recent Entries"
+#~ msgstr "最近条目"
+#~ msgid "d.m.y, H:i"
+#~ msgstr "Y.m.d., H:i"
+#~ msgid "Disables loading external page"
+#~ msgstr "禁止加载外部页面"
+#~ msgid ""
+#~ "Our Sponsors Link(Per line 1)<br />(Format:&lt;a heft=\"Sponsors Link"
+#~ "\"&gt;&lt;img src=\"imagelink\"&gt;&lt;/a&gt;)"
+#~ msgstr ""
+#~ "我们的赞助商链接(每行一个)<br />(格式:&lt;a heft=\"Sponsors Link\"&gt;&lt;"
+#~ "img src=\"imagelink\"&gt;&lt;/a&gt;)"
+
+#, fuzzy
+#~ msgid "F j, Y, "
+#~ msgstr "Y年m月d日"
+#~ msgid "l, j F Y"
+#~ msgstr "Y年m月d日 星期"
+#~ msgid "Posted on %s by %s"
+#~ msgstr "%s %s"
+#~ msgid "Posted on %s  by %s"
+#~ msgstr "分类目录:%s 作者:%s"
+
