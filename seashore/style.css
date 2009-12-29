@@ -8,7 +8,7 @@ Author URI: http://sadish.net
 */
 
 /* Elements */
-* 
+* 
 {
 	margin:0;
 	padding:0;
@@ -556,7 +556,7 @@ input.textbox:focus, textarea:focus
 	font-size: 0.9em;
 	color: #696;	
 }
-#footer p span 
+#footer span.footer 
 {
 	float:right;
 }
