@@ -1,0 +1,61 @@
+8
+
+dir
+20
+https://wpng-calendar.googlecode.com/svn/trunk/wpng-calendar
+https://wpng-calendar.googlecode.com/svn
+
+
+
+2008-02-01T22:52:26.533808Z
+12
+l1jockeys
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+8fab8670-f944-0410-8d00-039af3e4e848
+
+images
+dir
+
+css
+dir
+
+wpng-calendar.php
+file
+38
+
+
+
+2008-03-14T16:33:52.009000Z
+050c1b216a6d6be16be407453d6fdd78
+2008-03-14T23:45:44.920378Z
+38
+l1jockeys
+
+readme.txt
+file
+
+
+
+
+2008-02-18T01:40:38.849852Z
+9e3570a66056ac5504c462b7c26a18c7
+2008-02-01T22:52:14.074888Z
+11
+l1jockeys
+
+js
+dir
+
