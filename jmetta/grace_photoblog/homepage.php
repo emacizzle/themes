@@ -69,7 +69,7 @@ get_header();
 				* Get all image attachments
 				*/
 				echo "<li".$c.">";
-				$img = gpi_get_image(0, "http://raven.redivivablogs.com/wp-content/themes/grace_photoblog/images/zkp-logo.png", false);
+				$img = gpi_get_image(0, "http://ravenseyebodyart.com/wp-content/themes/grace_photoblog/images/zkp-logo.png", false);
 				$name = $img['title'];
 				$path = str_replace('//','/',$img['path']); // sometimes had double backslashes returned
 				$blogdir = '/home/jmettaco/public_html/wp-content/blogs.dir/' . $blog_id. "/";
