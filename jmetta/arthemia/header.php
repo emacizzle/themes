@@ -15,9 +15,8 @@
 
 <link rel="pingback" href="<?php bloginfo('pingback_url'); ?>" />
 
-
-<link rel="icon" href="<?php echo get_option('home'); ?>/wp-content/themes/arthemia/images/favicon.ico" />
-<link rel="shortcut icon" href="<?php echo get_option('home'); ?>/wp-content/themes/arthemia/images/favicon.ico" />
+<link rel="openid.server" href="http://openid.claimid.com/server" />
+<link rel="openid.delegate" href="http://openid.claimid.com/johnmetta" />
 
 <?php wp_head(); ?>
 
@@ -33,7 +32,38 @@
 	</div>
 
 	<div class="right">
-	<img src="<?php echo get_option('home'); ?>/wp-content/themes/arthemia/images/banners/wide.jpg" alt="" width="468px" height="60px"  />
+		<a title="RSS" href="http://feed.feedburner.com/Mettadore" target="_blank"  >
+			<img alt="RSS" src="http://mettadore.com/social_icons/60/feed.png" />			
+		</a>
+		<a title="Contact" href="mailto:john@mettadore.com" target="_blank"  >
+			<img alt="Email" src="http://mettadore.com/social_icons/60/email.jpg" />
+		</a>
+		<a title="Twitter" href="http://twitter.com/mettadore" target="_blank"  >
+			<img alt="Twitter" src="http://mettadore.com/social_icons/60/twitter.png" />
+		</a>
+		<a title="Facebook" href="http://facebook.com/john.metta" target="_blank"  >
+			<img alt="Facebook" src="http://mettadore.com/social_icons/60/facebook.png" />			
+		</a>
+		<a title="Google" href="http://www.google.com/profiles/mettadore" target="_blank"  >
+			<img alt="Google" src="http://mettadore.com/social_icons/60/google.png" />
+		</a>
+		<a title="Linkedin" href="http://www.linkedin.com/in/johnmetta" target="_blank"  >
+			<img alt="Linkedin" src="http://mettadore.com/social_icons/60/linkedin.png" />			
+		</a>
+<!-->		<a title="Skype" href="skype:johnmetta?chat" target="_blank"  >
+			<img alt="Skype" src="http://mettadore.com/social_icons/60/skype.png" />			
+		</a> -->
+		<a title="FriendFeed" href="http://friendfeed.com/mettadore" target="_blank"  >
+			<img alt="FriendFeed" src="http://mettadore.com/social_icons/60/friendfeed.png" />			
+		</a>
+		<a title="Lastfm" href="http://www.last.fm/user/Mettadore" target="_blank"  >
+			<img alt="Lastfm" src="http://mettadore.com/social_icons/60/lastfm.png" />			
+		</a>
+<!-->		<a title="Identi" href="http://identi.ca/mettadore" target="_blank"  >
+			<img alt="" src="http://mettadore.com/social_icons/60/.png" />			
+		</a>-->
+
+
 	</div>
 
 </div>
@@ -42,7 +72,7 @@
 
 <ul id="page-bar" class="left clearfloat">
 
-<li><a href="<?php echo get_option('home'); ?>/">Home</a></li>
+<li><a href="<?php echo get_option('home'); ?>/">Sites & Projects I Manage &mdash;></a></li>
 
 <?php wp_list_pages('sort_column=menu_order&title_li='); ?>
 

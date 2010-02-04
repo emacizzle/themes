@@ -26,7 +26,10 @@ body {
 p {	
 	margin: 15px 0;
 	}
-
+hr {
+	margin-top: 2px;
+	margin-bottom: 3px;
+}
 a:link, a:visited {
 	color: #3c78a7;
 	text-decoration:none

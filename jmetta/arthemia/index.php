@@ -22,17 +22,14 @@ get_header(); ?>
 		</div>
 		
 			<div id="featured">
-
-			<img src="<?php echo get_option('home'); ?>/wp-content/themes/arthemia/images/featured.png" width="72px" height="17px" alt="" />
+				<h3 class="title">Some Current Projects</h3>
 			<?php query_posts("showposts=4&category_name=Featured"); $i = 1; ?>
 
 		      <?php while (have_posts()) : the_post(); ?>
 			<div class="clearfloat">
-			<?php	$values = get_post_custom_values("Image");
+				<?php	$image = gpi_get_image(0, "http://mettadore.com/default.jpg", false); ?>
 		      <a href="<?php the_permalink() ?>" rel="bookmark" title="Permanent Link to <?php the_title(); ?>">
-			<img src="<?php echo bloginfo('template_url'); ?>/scripts/timthumb.php?src=<?php echo get_option('home'); ?>/<?php
-		$values = get_post_custom_values("Image"); echo $values[0]; ?>&w=100&h=65&zc=1&q=100"
-		alt="<?php the_title(); ?>" class="left" width="100px" height="65px"  /></a>
+			<img src="<?php echo $image['url']; ?>"	alt="<?php the_title(); ?>" class="left" width="100px" height="65px"  /></a>
 			<div class="info"><a href="<?php the_permalink() ?>" rel="bookmark" class="title"><?php the_title(); ?></a>
 		<?php the_excerpt(); ?>
 		</div>
@@ -45,8 +42,8 @@ get_header(); ?>
 		</div>	
 
 			<div id="middle" class="clearfloat">
-			<img src="<?php echo get_option('home'); ?>/wp-content/themes/arthemia/images/category.png" class="clearfloat" alt="" />
-			<?php $display_categories = array(22,25,26,27,5)); $i = 1;
+			<h3>Read Mindless Articles About Stuff I Do</h3>
+			<?php $display_categories = array(47,25,27,22,5); $i = 1;
 			foreach ($display_categories as $category) { ?>
 
 			<div id="cat-<?php echo $i; ?>" class="category">
@@ -68,7 +65,7 @@ get_header(); ?>
 
 			<?php
 		      $page = (get_query_var('paged')) ? get_query_var('paged') : 1;
-		      query_posts("cat=-9,-15&paged=$page&posts_per_page=5"); ?>
+		      query_posts("cat=-9,-15&paged=$page&posts_per_page=1"); ?>
 
 			<?php while (have_posts()) : the_post(); ?>		
 

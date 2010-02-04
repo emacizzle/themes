@@ -6,7 +6,7 @@ register_sidebar(array('name' => 'Sidebar Right','before_widget' => '','after_wi
 register_sidebar(array('name' => 'Sidebar Bottom','before_widget' => '','after_widget' => '','before_title' => '<h3>','after_title' => '</h3>'));    
 register_sidebar(array('name' => 'Footer Left','before_widget' => '','after_widget' => '','before_title' => '<h3>','after_title' => '</h3>'));     
 register_sidebar(array('name' => 'Footer Center','before_widget' => '','after_widget' => '','before_title' => '<h3>','after_title' => '</h3>'));     
-register_sidebar(array('name' => 'Photo Right','before_widget' => '','after_widget' => '','before_title' => '<h3>','after_title' => '</h3>')); 
+register_sidebar(array('name' => 'Footer Right','before_widget' => '','after_widget' => '','before_title' => '<h3>','after_title' => '</h3>')); 
 } 
 
 
