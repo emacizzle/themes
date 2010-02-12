@@ -218,7 +218,9 @@ h3 {
 	color:#3c78a7;
 	font-weight:bold;
 	}
-
+h3.center {
+	text-align: center;
+}
 h4 {
 	font:1.0em Arial;
 	}
@@ -831,4 +833,64 @@ li.my_comment cite strong {
 
 .clearfloat {
 	display:block;
+	}
+	
+	a.hackadelic-sliderButton {
+
+		border: 1px solid lightgrey;
+
+		color: #B3960E;
+
+		padding: 0 3px;
+
+		-moz-border-radius: 1em; -webkit-border-radius: 1em;
+
+	}
+
+	a.hackadelic-sliderButton:hover {
+
+		border: 1px solid #F0F0E0;
+
+		background-color: #F0F0E0;
+
+	}
+
+
+
+	.entrybody .hackadelic-sliderPanel pre {
+
+		border: 0 none;
+
+	}
+
+	.entrybody .hackadelic-sliderPanel div.dp-highlighter {
+
+		max-width: 578px;
+
+	}
+
+	.hackadelic-series-info {
+
+	        margin-bottom: 15px;
+
+	        font: 700 1.1em arial, sans-serif;
+
+	        text-size: 1.1em;
+
+	}
+
+
+
+	.alignleft { float: left;
+
+	            margin-right: 3px;
+
+	}
+
+
+
+	.alignright { float: right;
+
+	             margin-left: 3px;
+
 	}

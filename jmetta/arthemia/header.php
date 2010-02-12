@@ -38,6 +38,9 @@
 		<a title="Contact" href="mailto:john@mettadore.com" target="_blank"  >
 			<img alt="Email" src="http://mettadore.com/social_icons/60/email.jpg" />
 		</a>
+		<a title="Github" href="http://github.com/mettadore" target="_blank" >
+			<img alt="Github" src="http://mettadore.com/social_icons/60/github.png" />
+			</a>
 		<a title="Twitter" href="http://twitter.com/mettadore" target="_blank"  >
 			<img alt="Twitter" src="http://mettadore.com/social_icons/60/twitter.png" />
 		</a>
