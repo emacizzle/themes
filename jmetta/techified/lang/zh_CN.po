@@ -177,11 +177,6 @@ msgstr "请安装 Popularity Contest 插件。"
 msgid "About Author"
 msgstr "关于作者"
 
-#: footer.php:39
-#, php-format
-msgid "Copyright %s %s %s. Power by <a href=\"http://wordpress.org\" target=\"_blank\">WordPress</a>. "
-msgstr "Copyright %s %s %s. Power by <a href=\"http://wordpress.org\" target=\"_blank\">WordPress</a>. Techified theme ptimization and Chinese by <a href=\"http://cheon.info/\">CheonNii</a>."
-
 #: functions.php:4
 msgid "Please do not load this page directly. Thanks!"
 msgstr ""
@@ -429,12 +424,6 @@ msgstr ""
 msgid "%s's tag archives"
 msgstr ""
 
-#~ msgid ""
-#~ "Techified theme ptimization and Chinese by <a href=\"http://cheon.info/"
-#~ "\">CheonNii</a>."
-#~ msgstr ""
-#~ "Techified theme ptimization and Chinese by <a href=\"http://cheon.info/"
-#~ "\">CheonNii</a>."
 #~ msgid "Recent Entries"
 #~ msgstr "最近条目"
 #~ msgid "d.m.y, H:i"

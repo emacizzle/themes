@@ -176,8 +176,6 @@ msgstr ""
 
 #: footer.php:39
 #, php-format
-msgid "Copyright %s %s %s. Power by <a href=\"http://wordpress.org\" target=\"_blank\">WordPress</a>. "
-msgstr "Copyright %s %s %s. Power by <a href=\"http://wordpress.org\" target=\"_blank\">WordPress</a>. Techified theme ptimization and Chinese by <a href=\"http://cheon.info/\">CheonNii</a>."
 
 #: functions.php:4
 msgid "Please do not load this page directly. Thanks!"
