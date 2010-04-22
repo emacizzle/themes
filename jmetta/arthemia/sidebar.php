@@ -1,15 +1,20 @@
 <div id="sidebar">
 
+<?php if (!is_single()) { ?>
+
 <div id="sidebar-ads">
 	<?php if ( !function_exists('dynamic_sidebar') || !dynamic_sidebar(1) ) : ?>
 	<?php endif; ?>
 </div>
-
-<?php if (is_single()) { ?>
-
+<?php } else {?>
 <div id="sidebar-top"> 
+	<iframe class="facebook" src="http://www.facebook.com/plugins/like.php?href=<?php echo urlencode(get_permalink($post->ID)); ?>&amp;layout=standard&amp;show_faces=true&amp;width=450&amp;action=like&amp;colorscheme=light" scrolling="no" frameborder="0" allowTransparency="true"></iframe>
 </div>
 
+<div id="sidebar-ads">
+	<?php if ( !function_exists('dynamic_sidebar') || !dynamic_sidebar(1) ) : ?>
+	<?php endif; ?>
+</div>
 
 <div id="sidebar-middle" class="clearfloat"> 
 <div id="sidebar-left">

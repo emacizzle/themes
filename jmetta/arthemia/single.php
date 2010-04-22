@@ -20,6 +20,7 @@
 	
 	<?php the_content('Read the rest of this entry &raquo;'); ?>
 
+
 	<?php wp_link_pages(array('before' => '<p><strong>Pages:</strong> ', 'after' => '</p>', 'next_or_number' => 'number')); ?>
 	
 	</div>
@@ -28,6 +29,7 @@
 	
 	<div id="comments">
 	<?php comments_template(); ?>
+
 	</div>
 
 	<?php endwhile; else: ?>
@@ -37,6 +39,5 @@
 	<?php endif; ?>
 
 	</div>
-
 <?php get_sidebar(); ?>
 <?php get_footer(); ?>
