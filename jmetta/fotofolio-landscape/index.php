@@ -4,7 +4,7 @@ get_sidebar();
 ?>
 		<div class="main grid_17">
 			<div class="stage">
-				<?php $the_query = new WP_Query ('cat=' . get_option('fotofolio_slide') . '&posts_per_page=' . get_option('fotofolio_slide_num') . ''); ?><?php while ($the_query->have_posts()) : $the_query->the_post(); ?>
+				<?php $the_query = new WP_Query ('cat=' . get_option('fotofolio_slide') . '&posts_per_page=' . get_option('fotofolio_slide_num') . '&order=ASC'); ?><?php while ($the_query->have_posts()) : $the_query->the_post(); ?>
 				<div class="slide">
 					<a href="<?php the_permalink(); ?>"><?php the_post_thumbnail( 'single-post-thumbnail' ); ?></a>
 					<h2><?php the_title(); ?></h2>

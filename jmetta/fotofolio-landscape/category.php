@@ -4,7 +4,7 @@ get_sidebar();
 ?>
 		<div class="main grid_17">
 			<h2 class="title"><?php single_cat_title(); ?> <span style="color: #cecece;">Category</span></h2>
-			<div class="this-category grid_10">
+			<div class="this-category grid_16">
 				<?php if (have_posts()) : while (have_posts()) : the_post(); ?>
 				<div class="this-category-photo"><a href="<?php the_permalink(); ?>"><?php the_post_thumbnail( 'category-thumbnail' ); ?></a></div>
 				<?php endwhile; ?>
