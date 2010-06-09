@@ -41,7 +41,7 @@
 		<a title="Github" href="http://github.com/mettadore" target="_blank" >
 			<img alt="Github" src="http://mettadore.com/social_icons/60/github.png" />
 			</a>
-		<a title="Twitter" href="http://twitter.com/mettadore" target="_blank"  >
+		<a title="Twitter" href="http://twitter.com/johnmetta" target="_blank"  >
 			<img alt="Twitter" src="http://mettadore.com/social_icons/60/twitter.png" />
 		</a>
 		<a title="Facebook" href="http://facebook.com/john.metta" target="_blank"  >
@@ -65,7 +65,6 @@
 <!-->		<a title="Identi" href="http://identi.ca/mettadore" target="_blank"  >
 			<img alt="" src="http://mettadore.com/social_icons/60/.png" />			
 		</a>-->
-
 
 	</div>
 
