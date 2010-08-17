@@ -32,7 +32,7 @@
 	</div>
 
 	<div class="right">
-		<a title="RSS" href="http://feed.feedburner.com/Mettadore" target="_blank"  >
+		<a title="RSS" href="http://feeds.feedburner.com/Mettadore" target="_blank"  >
 			<img alt="RSS" src="http://mettadore.com/social_icons/60/feed.png" />			
 		</a>
 		<a title="Contact" href="mailto:john@mettadore.com" target="_blank"  >

@@ -43,7 +43,7 @@ get_header(); ?>
 
 			<div id="middle" class="clearfloat">
 			<h3 class="center">Look! You too can read stupid, overly analytical and dubiously accurate articles about stuff I like!!</h3>
-			<?php $display_categories = array(25,27,22,5,47); $i = 1;
+			<?php $display_categories = array(25,27,22,5,4020,47); $i = 1;
 			foreach ($display_categories as $category) { ?>
 
 			<div id="cat-<?php echo $i; ?>" class="category">

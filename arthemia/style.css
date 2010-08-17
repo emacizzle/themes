@@ -118,12 +118,13 @@ padding-bottom:5px; }
 
 #middle { width: 920px; background:#fff; float:right; padding:10px; margin:10px 0; }
 
-.category { width:164px; float:left; border-top:8px solid #333; margin:0px; padding:5px 10px 10px 10px;
+/*111px with 7 categories */
+.category { width:133px; float:left; border-top:8px solid #333; margin:0px; padding:5px 10px 10px 10px;
 background:#fff; }
 
 .category p { margin:0; }
 
-#cat-1, #cat-3, #cat-5 {border-top:8px solid #333333;} #cat-2, #cat-4 {border-top:8px solid #3c78a7;}
+#cat-1, #cat-3, #cat-5, #cat-7, #cat-9 {border-top:8px solid #333333;} #cat-2, #cat-4, #cat-6, #cat-8 {border-top:8px solid #3c78a7;}
 
 .category span.cat_title, #front-popular h3, #front-list .cat_title, #archive .cat_title {
 text-transform:lowercase; margin:0; font-weight:bold; font-size:1.5em; letter-spacing:-0.05em; }
@@ -134,9 +135,9 @@ text-transform:lowercase; margin:0; font-weight:bold; font-size:1.5em; letter-sp
 
 .category a:hover { background:none; color:#fff; text-decoration:none; }
 
-#cat-1:hover, #cat-3:hover, #cat-5:hover {background:#333333; color:#fff; } #cat-2:hover, #cat-4:hover
-{background:#3c78a7; color:#fff; } #cat-1:hover a, #cat-3:hover a, #cat-5:hover a {background:#333333; color:#fff;
-} #cat-2:hover a, #cat-4:hover a {background:#3c78a7; color:#fff; }
+#cat-1:hover, #cat-3:hover, #cat-5:hover, #cat-7:hover, #cat-9:hover {background:#333333; color:#fff; } 
+#cat-2:hover, #cat-4:hover, #cat-6:hover, #cat-8:hover {background:#3c78a7; color:#fff; } #cat-1:hover a, #cat-3:hover a, #cat-5:hover a, #cat-7:hover a, #cat-9:hover a {background:#333333; color:#fff;
+} #cat-2:hover a, #cat-4:hover a, #cat-6:hover a, #cat-8:hover a {background:#3c78a7; color:#fff; }
 
 #bottom { width: 940px; }
 
